@@ -1,0 +1,157 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Intermediator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- Sidebar -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+
+            <div class="logo-circle">🤖</div>
+
+            <div>
+
+                <h2>AI Intermediator</h2>
+
+                <p>AI Document Assistant</p>
+
+            </div>
+
+        </div>
+
+        <div class="divider"></div>
+
+        <h3>Upload PDF</h3>
+
+        <input
+            type="file"
+            id="pdfFile"
+            accept=".pdf">
+
+        <button
+            class="primary-btn"
+            onclick="uploadPDF()">
+
+            Upload PDF
+
+        </button>
+
+        <div class="divider"></div>
+
+        <h3>Uploaded Documents</h3>
+
+        <div id="pdf-list"></div>
+
+        <div class="divider"></div>
+
+        <h3>Chat Mode</h3>
+
+        <label class="radio-item">
+
+            <input
+                type="radio"
+                name="mode"
+                value="chat"
+                checked>
+
+            Normal Chat
+
+        </label>
+
+        <label class="radio-item">
+
+            <input
+                type="radio"
+                name="mode"
+                value="pdf">
+
+            PDF Chat
+
+        </label>
+
+        <button
+            class="danger-btn"
+            onclick="clearChat()">
+
+            Clear Chat
+
+        </button>
+
+    </aside>
+
+    <!-- Main -->
+
+    <main class="chat-section">
+
+        <header class="chat-header">
+
+            <h1>AI Intermediator Chatbot</h1>
+
+            <span class="status">
+
+                ● Online
+
+            </span>
+
+        </header>
+
+        <div
+            id="chat-box"
+            class="chat-box">
+
+        </div>
+
+        <div
+            id="typing"
+            class="typing">
+
+            🤖 Thinking...
+
+        </div>
+
+       <div class="input-area">
+
+    <button
+        id="micBtn"
+        onclick="startListening()">
+
+        🎤
+
+    </button>
+
+    <input
+        type="text"
+        id="message"
+        placeholder="Type or speak your question...">
+
+    <button
+        class="send-btn"
+        onclick="sendMessage()">
+
+        Send
+
+    </button>
+
+</div>
+
+</div>
+    </main>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
+```
