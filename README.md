@@ -13,6 +13,7 @@ Python
 FastAPI
 HTML, CSS, JavaScript
 (Optional) OpenAI / LLM integration
+
 📁 Project Structure
 AI-Intermediator-Chatbot/
  backend/
@@ -20,6 +21,7 @@ AI-Intermediator-Chatbot/
  venv/
 .gitignore
  README.md
+ 
 ▶️ How to Run
 1. Clone the repo
 git clone https://github.com/Kiruthika-sketch/AI-Intermediator-Chatbot.git
@@ -31,9 +33,6 @@ uvicorn main:app --reload
 cd frontend
 python -m http.server 8000
 
-Then open:
-
-http://localhost:8000
 📌 Future Improvements
 Add authentication system
 Improve UI/UX
