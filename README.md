@@ -15,12 +15,11 @@ HTML, CSS, JavaScript
 (Optional) OpenAI / LLM integration
 📁 Project Structure
 AI-Intermediator-Chatbot/
-│
-├── backend/
-├── frontend/
-├── venv/
-├── .gitignore
-└── README.md
+ backend/
+ frontend/
+ venv/
+.gitignore
+ README.md
 ▶️ How to Run
 1. Clone the repo
 git clone https://github.com/Kiruthika-sketch/AI-Intermediator-Chatbot.git
