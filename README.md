@@ -23,7 +23,7 @@ AI-Intermediator-Chatbot/
 └── README.md
 ▶️ How to Run
 1. Clone the repo
-git clone https://github.com/your-username/AI-Intermediator-Chatbot.git
+git clone https://github.com/Kiruthika-sketch/AI-Intermediator-Chatbot.git
 cd AI-Intermediator-Chatbot
 2. Run Backend
 cd backend
